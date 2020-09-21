@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/****Estilos del Nav ***/
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: rgb(25, 207, 231);
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-family: Soleil, Arial, sans-serif;
+    font-size: 16px;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: cornsilk;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: rgb(214, 228, 11);
+}
+
+.search{
+    float: right;
+    width: 230px;
+    padding-top: 15px;
+    margin-right: 5px;
+    display: inline-flex;
+    padding-top: 9px;
+}
+/***************************/
+
+.slider{
+    margin: auto;
+    padding-top: 20px;
+    object-fit: cover;
+    width: 1024px;
+    height: 500px;
+
+}
+
+
+
+.first{
+    padding: 90px 15px 15px 15px;
+}
+
+.second{
+    padding: 20px 15px 15px 15px;
+}
+
+
+.next{
+    right: 12.5%;
+    border-radius:3px 0 0 3px;
+   }
+
+.prev, .next{
+    position: absolute;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 40%;
+    display: flex;
+    width: 90px;
+    border: none;
+    color: black;
+    font-size: small;
+    font-weight: 900;
+    padding: 10px;
+    opacity: 0.5;
+    
+   }
+
+   h2, h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(10, 9, 9);
+    font-family: soleil, Arial, Helvetica, sans-serif;
+   }
+
+   p{
+    margin-bottom: 0%;
+    font-size: 1.2rem;
+    margin-top: 0%;
+    font-family: soleil, Arial, Helvetica, sans-serif;
+   }
+
+   #date{
+       right: 20px;
+       padding-top: 10px;
+   }
+
+   .text{
+       margin: auto;
+       padding-top: 20px;
+       width: 800px;
+       text-align: center;
+   }
+
+   /*ESTILOS DEL LOGIN Y EL REGISTRO//*/
+   
+section{
+    padding: 90px 90px 10px;
+}
+
+   .log{
+    margin-top: 120px;
+    position: absolute;
+
+   }
+
+   .form-register {
+    width: 350px;
+    padding: 30px;
+    position: relative;
+    margin: auto;
+    font-family: calibry;
+    color: white;
+
+    /* MAS V:*/
+    border-radius: 20px;
+    background: #55b9f3;
+    box-shadow:  5px 5px 9px #1e5b5e, 
+                 -5px -5px 90px #78ffff;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls, .inp {
+    width: 100%;
+    background: rgb(236, 230, 230);
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 2px solid #3da7d8;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background:#1b90d4;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    box-shadow:  5px 5px 9px #1e5b5e, 
+                 -5px -5px 9px #78ffff;
+  }
+
+  .botons:active{
+    box-shadow: inset -8px -8px 20px #1e5b5e, inset
+    inset 8px 8px 20px #78ffff, inset 5px 5px 6px;
+  }
+
+  .profile-img-card {
+    /*ajusta la imagen(logo) que esta dentro de la tarjeta*/
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    margin: 0 auto ;
+    display: block;
+    border-radius: 50%;
+
+
+}
+h3 {
+  margin-top: 30px;
+  color: #d33e3e;
+  text-align: center;
+  font-size: xx-large;
+}
+
+/***ESTILOS DE LAS COLUMNAS DE LAS NOTICIAS*/
+
+.container{
+    margin: 40px 0 40px;
+    padding: 120px;
+}
+
+.col-6{
+    width: 46%;
+    float: left;
+    margin: 2%;
+}
+
+.row{
+    margin-top: 2rem !important;
+    display: block;
+}
+
+.row-min{
+    display: block;
+}
+
+.col-2{
+    float: left;
+    width: 33%;
+}
+
+.col-4{
+    float: left;
+    width: 66%;
+}
+
+.prin{
+    width: 100%;
+}
+
+.cont{
+    width: 8.752rem;
+    margin-right: 1.255rem;
+}
+
+.one{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Soleil, Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    color: rgb(8, 12, 15);
+    margin-right: 0.54rem;
+    margin-bottom: 0.54rem;
+    font-weight: 630;
+}
+
+.two{
+    display: block;
+    font-family: Soleil, Arial, sans-serif;
+    margin-bottom: 0.4em;
+    font-weight: 600;
+    color: rgb(0, 45, 79);
+}
+
+
+
+/******/
+
+
+
+.busc{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.boto{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background:#1b90d4;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+  @media only screen and (max-width: 1024px){
+      .form-register{
+        width: 90%;
+        margin-top: 200px;
+       
+      }
+
+      section{
+        padding: 10px;
+    }
+
+   .row{
+       display: block;
+   }
+
+   .col-s12{
+       display: flex;
+       width: 100%;
+   }
+
+   .row-cont{
+    display: block;
+   }
+
+   .prin{
+       width: 100%;
+       padding: 2%;
+   }
+    }
+
+
+
+    .tite{
+        font-size: 2rem;
+        font-family: Soleil, Arial, sans-serif;
+        color: rgb(0, 45, 79);
+        display: block;
+        font-size: 3rem;
+        text-decoration: none;
+        font-weight: 700;
+    }

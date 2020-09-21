@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span>Inicio</span></a></li>
+                <li><a href="contacto.html"><span>Contacto</span></a></li>
+                <li><a href="noticias.html"><span>Noticias</span></a></li>
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="registrarse.html"><span>Registrarse</span></a></li>
+                <div class="search"> 
+                    <p id="date"><!--Hora Cargada por JavaScript--></p>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="log">
+            <form class="form-register" action="" method="POST" autocomplete="off">
+                <img src="img/nfl.png" id="profile-img" class="profile-img-card">
+                  <h3>Inicio De Sesion</h3>
+                  <input class="controls" type="text" name="user" id="correo" placeholder="Ingrese su Usuario" required>
+                  <input class="controls" type="password" name="pass" id="correo" placeholder="Ingrese su Contraseña" required>
+                  <input class="botons" type="submit" value="Ingresar">
+              </form>
+              <center><p style="padding-top: 20px; color: red;">No tienes una cuenta?<br><a style="cursor: pointer; color: blue;" onclick="crear()">Crear Cuenta</a></p></center>
+        </div>
+          <form class="form-register" action="" id="reg" method="POST" style="display: none;">
+            <img src="img/nfl.png" id="profile-img" class="profile-img-card">
+            <h3>Registrarse</h3>
+            <input class="controls" type="text" name="user" id="nombre" placeholder="Ingrese su Nombre" required>
+            <input class="controls" type="text" name="pass" id="apellido" placeholder="Ingrese su Apellido" required>
+            <input class="controls" type="text" name="user" id="correo" placeholder="Correo Electronico" required>
+            <input class="controls" type="password" name="pass" id="Contraseña" placeholder="Contraseña" required>
+            <input class="controls" type="password" name="pass" id="Contraseña2" placeholder="Verifique su Contraseña" required>
+            <input class="botons" type="submit" value="Registrar" onclick="regis()">
+          </form>
+    </section>
+
+    
+    <script src="js/func.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><span>Inicio</span></a></li>
+                <li><a href="contacto.html"><span>Contacto</span></a></li>
+                <li><a href="noticias.html"><span>Noticias</span></a></li>
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="registrarse.html"><span>Registrarse</span></a></li>
+                <div class="search"> 
+                    <p id="date"><!--Hora Cargada por JavaScript--></p>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="row busc">
+            <input class="col-2 inp" id="newcomen" type="text" placeholder="Ingrese un nuevo comentario">
+            <button class="col-3 boto" type="submit" style="cursor: pointer;" onclick="comentar()">Comentar</button>
+        </div>
+        <div class="sec" id="coments">
+            <h1>Seccion de Comentarios</h1>
+            <div class="com">
+                <h4>Unknow</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Libero recusandae ipsum delectus! Earum adipisci, 
+                     voluptatibus ipsum vero quasi dignissimos enim, recusandae
+                     veniam quia quas reiciendis aspernatur dolores, dolore
+                     similique. Neque?
+                </p>
+            </div>
+            <div>
+                <h4>Unknow</h4>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Libero recusandae ipsum delectus! Earum adipisci, 
+                     voluptatibus ipsum vero quasi dignissimos enim, recusandae
+                     veniam quia quas reiciendis aspernatur dolores, dolore
+                     similique. Neque?
+                </p>
+            </div>
+        </div>
+    </section>
+    <style>
+        p{
+            color: royalblue;
+        }
+        div{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <script src="js/func.js"></script>
+</body>
+</html>
